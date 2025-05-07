@@ -1,0 +1,24 @@
+h1{
+    font-family: "Tahoma";
+    position: static; /* Realmente innecesario porque es el valor por defecto */
+    text-align: center;
+    border: 10px solid #663366;
+    margin: 0;
+    color: #000;
+}
+
+    h4{
+    font-family:"Tahoma";
+    position:static;
+    text-align:center;
+    border: #663366 5px;
+    color:#000;
+    margin: 0px;
+    }
+    img {
+
+position:initial;
+width: 330px;
+height: 230px;
+}
+

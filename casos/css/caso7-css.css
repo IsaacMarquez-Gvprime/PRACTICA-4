@@ -1,0 +1,30 @@
+body{ 
+    font-family:"Tahoma"; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{ 
+    width: 878px; 
+    background-color: aliceblue; 
+    padding: 10px;
+} 
+h1 {
+    text-align:center; 
+    
+} 
+h3{ 
+    position: absolute; 
+    padding: 10px; 
+    background-color:#000; 
+    color:#fff; 
+    top: 242px; 
+    left: 300px; 
+    z-index:1; 
+    text-align: center;
+} 
+img {
+    position:relative; 
+    width: 170px; 
+    height:194px;
+}

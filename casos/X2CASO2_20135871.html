@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo de estilo de página</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Centra verticalmente en toda la ventana */
+            background-color: #f5f5f5; /* Opcional, para mejor contraste */
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            width: 250px;
+            text-align: justify;
+            font-family: Tahoma, sans-serif;
+            font-size: 12px;
+            color: black;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Opcional, estilo visual */
+        }
+
+        a {
+            text-decoration: none;
+            color: red;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        section {
+            margin: 0;
+        }
+
+        #imagen {
+            width: 100%;
+            height: auto;
+        }
+
+        .link {
+            font-size: 12px;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <section>
+                    <img src="IMG/Light vs dark.jpg" id="imagen"><br><br>
+                    <header>
+                        <strong>FUEGO Y HIELO</strong><br>
+                        (poema)<br>
+                        Robert Frost<br><br>
+                    </header>
+                    Unos dicen que el mundo terminará en fuego, otros dicen que en hielo. Por lo que he gustado del deseo, estoy con los
+                    partidarios del fuego. <br><br>
+                    Pero si tuviera que sucumbir dos veces, creo saber bastante
+                    acerca del odio como para decir que, en la destrucción, el hielo también es poderoso. Y bastaría.<br><br>
+                    <a href="#" class="link">Leer más...!!</a>
+                </section>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
