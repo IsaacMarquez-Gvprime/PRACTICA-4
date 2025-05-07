@@ -1,0 +1,23 @@
+a{
+    font-family: tahoma;
+    font-size: 14;
+    color: blue;
+}
+body{
+    font-family: tahoma;
+    font-size: 14px;
+}
+/*color inical*/
+a:link{
+    color: red;
+}
+/*color del enlace vistando */
+a:visited{
+    color: green;
+}
+a:hover{
+    color: black;
+}
+a:active{
+    color: blue;
+}

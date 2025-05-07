@@ -1,0 +1,16 @@
+#mayuscula{
+    text-transform: uppercase;
+}
+#minuscula{
+    text-transform: lowercase;
+}
+#primeraLetra{
+    text-transform: capitalize;
+}
+#espaciado{
+    letter-spacing: 9px;
+    font-size: 12px;
+}
+section{
+    line-height: 0.3;
+}
